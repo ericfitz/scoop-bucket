@@ -1,0 +1,20 @@
+{
+    "version": "1.14.1",
+    "description": "Local message bus and shared memory for coding agents",
+    "homepage": "https://github.com/ericfitz/agentbus",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.14.1/agentbus-v1.14.1-windows-amd64.zip", "hash": "b09c952ccfcf84573df15ce999180fefe6b814401cdd9b2642787deab30d6f45" },
+        "arm64": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.14.1/agentbus-v1.14.1-windows-arm64.zip", "hash": "698701b12e1fdc5a2cff5bed3c4b881492795546246b529da6b133b9a15dc83a" }
+    },
+    "bin": "agentbus.exe",
+    "checkver": { "github": "https://github.com/ericfitz/agentbus" },
+    "autoupdate": {
+        "architecture": {
+            "64bit": { "url": "https://github.com/ericfitz/agentbus/releases/download/v$version/agentbus-v$version-windows-amd64.zip" },
+            "arm64": { "url": "https://github.com/ericfitz/agentbus/releases/download/v$version/agentbus-v$version-windows-arm64.zip" }
+        },
+        "hash": { "url": "https://github.com/ericfitz/agentbus/releases/download/v$version/SHA256SUMS" }
+    },
+    "notes": "Stop agentbus sessions (MCP servers, waits, the TUI) before `scoop update agentbus`: Scoop cannot replace the files of a running program."
+}
