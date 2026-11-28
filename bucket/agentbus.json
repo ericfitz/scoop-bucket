@@ -1,11 +1,11 @@
 {
-    "version": "1.21.0",
+    "version": "1.22.0",
     "description": "Local message bus and shared memory for coding agents",
     "homepage": "https://github.com/ericfitz/agentbus",
     "license": "Apache-2.0",
     "architecture": {
-        "64bit": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.21.0/agentbus-v1.21.0-windows-amd64.zip", "hash": "17d1000bbde4cdec09970a08d09cbec88955ab451171e7492b96f8322500420e" },
-        "arm64": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.21.0/agentbus-v1.21.0-windows-arm64.zip", "hash": "aa6970b35d73b1cae3040c41ee88851f0d0989949fb1fbf0b2c272a00f0c23d7" }
+        "64bit": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.22.0/agentbus-v1.22.0-windows-amd64.zip", "hash": "5a9af71908b807f8c4fd48a1bb0c8ab7445b0091f56873891e07c313210a1375" },
+        "arm64": { "url": "https://github.com/ericfitz/agentbus/releases/download/v1.22.0/agentbus-v1.22.0-windows-arm64.zip", "hash": "ab52887a8ce4e13136863261abe2db290571c8904ac90ecce65366d24d271d3d" }
     },
     "bin": "agentbus.exe",
     "checkver": { "github": "https://github.com/ericfitz/agentbus" },
